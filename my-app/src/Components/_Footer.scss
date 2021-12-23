@@ -1,0 +1,41 @@
+@import "./variable";
+
+.footer {  
+    @media screen and (max-width:480px) {
+        display: none;
+    }
+    .footer_container {
+         display: grid;
+         grid-template-columns: auto auto;
+         justify-content: space-between;
+        padding: 18px 0;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        background: linear-gradient( #00000026, black);
+         .explore {
+            margin-left: 23px;
+         }
+        p {
+            color: white;
+             }
+             @media screen and (max-width:768px) {
+                display: grid;
+                grid-gap: 491px;
+             }
+             @media screen and (max-width:1024px) {
+                display: grid;
+                gap: 544px;
+             }
+        .demo {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 21px;
+            margin-right: 23px;
+            .demo_color {
+            color: $textColor;
+            }
+         
+        }
+     } 
+}

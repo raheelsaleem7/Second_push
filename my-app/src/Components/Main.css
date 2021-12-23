@@ -1,0 +1,24 @@
+.main {
+  display: -ms-grid;
+  display: grid;
+}
+
+.main .container {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .escape {
+  font-size: 100px;
+}
+
+.main .escape .text {
+  font-size: 20px;
+}
+/*# sourceMappingURL=Main.css.map */

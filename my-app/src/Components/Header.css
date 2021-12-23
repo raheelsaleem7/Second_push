@@ -1,0 +1,63 @@
+.header .header_container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto;
+      padding: 29px 17px;
+
+}
+
+.header .icons {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 15px;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+      position: absolute;
+}
+
+.header .inpsired {
+  color: #333e48;
+  opacity: .9;
+}
+
+.header .live {
+  color: #8958b1;
+}
+
+.header .header_p {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-gap: 12px;
+  position: relative;
+  right: 139px;
+ 
+}
+
+.header .logo {
+  width: 230px;
+}
+
+.header .para {
+  text-align: right;
+}
+
+.header .sponser {
+  font-size: 11px;
+  line-height: 23px;
+}
+
+.header .header_end {
+  line-height: 19px;
+  text-align-last: right;
+  position: absolute;
+  right: 23px;
+}
+
+.header .system {
+  font-size: 19px;
+  line-height: 21px;
+}
+/*# sourceMappingURL=Header.css.map */

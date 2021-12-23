@@ -1,0 +1,78 @@
+@import "./variable";
+
+.header {
+      @media screen and (max-width:480px) {
+          display: none;
+      }
+
+       @media screen and (max-width:768px) {
+        display: grid;
+       }
+       @media screen and (max-width:1024px) {
+        display: grid;
+    
+       }
+       @media screen and (max-width:1115px) {
+     
+       }
+      .container {
+      display: grid;
+      grid-template-columns: auto auto ;
+      padding: 29px 17px;
+      .icons {
+       display: grid;
+       grid-gap: 15px;
+       grid-template-columns: auto auto;
+       position: absolute;
+      }
+
+      .header_p  { 
+             display: grid;
+             grid-template-columns: auto auto;
+             grid-gap: 12px;
+             align-items: baseline;
+             position: relative;
+             right: 139px;
+
+             @media screen and (max-width:1115px) {
+              
+        
+               }
+            .inpsired {
+             color: #333e48;
+             opacity: .9;
+            }
+            .by {
+            font-family: $main_font;
+            }
+            .live {
+            color: $textColor;
+            font-family: $main_font;
+            }
+      } 
+      .header_end {
+           line-height: 19px;
+           text-align-last: right;
+           position: absolute;
+           right: 23px;
+        
+           .logo {
+           width: 230px;
+           }
+           .para {
+            text-align: right;
+            }
+            .sponser {
+            font-size: 11px;
+            line-height: 23px;
+            }
+       
+           .system {
+           font-size: 19px;
+           line-height: 21px;
+           font-family: $main_font2;
+        }
+        
+    }
+  }
+}

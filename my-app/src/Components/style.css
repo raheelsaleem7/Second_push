@@ -1,0 +1,9 @@
+@import "./_variable.scss";
+@import "./_Header.scss";
+@import "./_Main.scss";
+@import "./_Footer.scss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Jost:wght@300&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Jost:wght@300&family=Playfair+Display&display=swap');
+
